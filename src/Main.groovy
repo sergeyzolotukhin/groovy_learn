@@ -23,3 +23,18 @@ println "each by list item:"
 
 println "each by list item with index:"
 ['Cat', 'Dog', 'Elephant'].eachWithIndex { name, index -> println "$index). Animal $name" }
+
+println "each by map:"
+['cat': 'Meow', 'dog': 'Woof'].each { key, val -> println "$key = $val" }
+
+println "for in:"
+for (i in 1..3) {
+    println "for in $i"
+}
+
+println "while:"
+i = 0
+while (i < 2) {
+    println "while iterate $i"
+    i++
+}
