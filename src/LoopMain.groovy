@@ -22,7 +22,7 @@ println "each by list item:"
 ['Cat', 'Dog', 'Elephant'].each { println "item ${it}" }
 
 println "each by list item with index:"
-['Cat', 'Dog', 'Elephant'].eachWithIndex { name, index -> println "$index). Animal $name" }
+['Cat', 'Dog', 'Elephant'].eachWithIndex { name, index -> println "$index). $name" }
 
 println "each by map:"
 ['cat': 'Meow', 'dog': 'Woof'].each { key, val -> println "$key = $val" }
