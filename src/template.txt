@@ -1,0 +1,7 @@
+File contains: test items.
+
+Item № $i1
+Item № $i2
+Item № $i4
+
+End files
